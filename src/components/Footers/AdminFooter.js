@@ -1,69 +1,61 @@
-import { Container, Row, Col, Nav, NavItem, NavLink } from "reactstrap";
+import React from "react";
 
-const Footer = () => {
+const AdminFooter = () => {
   return (
-    <footer className="footer">
-      <Row className="align-items-center justify-content-xl-between">
-        <Col xl="6">
-          <div className="copyright text-center text-xl-left text-muted">
-            © {new Date().getFullYear()}{" "}
-            <a
-              className="font-weight-bold ml-1"
-              href="https://www.creative-tim.com?ref=adr-admin-footer"
-              rel="noopener noreferrer"
-              target="_blank"
-            >
-              Team Mavix
-            </a>
+    <>
+      <footer className="footer pt-0">
+        <div className="row align-items-center justify-content-lg-between">
+          <div className="col-lg-6">
+            <div className="copyright text-center text-lg-left text-muted">
+              © {new Date().getFullYear()}{" "}
+              <a
+                className="font-weight-bold ml-1"
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                CNE
+              </a>
+            </div>
           </div>
-        </Col>
-
-        <Col xl="6">
-          <Nav className="nav-footer justify-content-center justify-content-xl-end">
-            <NavItem>
-              <NavLink
-                href="https://www.creative-tim.com?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Mavixverse
-              </NavLink>
-            </NavItem>
-
-            <NavItem>
-              <NavLink
-                href="https://www.creative-tim.com/presentation?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                About Us
-              </NavLink>
-            </NavItem>
-
-            {/* <NavItem>
-              <NavLink
-                href="http://blog.creative-tim.com?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Blog
-              </NavLink>
-            </NavItem> */}
-
-            {/* <NavItem>
-              <NavLink
-                href="https://github.com/creativetimofficial/argon-dashboard/blob/master/LICENSE.md?ref=adr-admin-footer"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                MIT License
-              </NavLink>
-            </NavItem> */}
-          </Nav>
-        </Col>
-      </Row>
-    </footer>
+          <div className="col-lg-6">
+            <ul className="nav nav-footer justify-content-center justify-content-lg-end">
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  About Us
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Blog
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className="nav-link"
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  License
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </>
   );
 };
 
-export default Footer;
+export default AdminFooter;

@@ -46,8 +46,8 @@ const UserLayout = (props) => {
         routes={userRoutes}
         logo={{
           innerLink: "/user/home",
-          imgSrc: require("../assets/img/brand/argon-react.png"), // Update logo if needed
-          imgAlt: "...",
+          imgSrc: process.env.PUBLIC_URL + "/img/logo.png",
+          imgAlt: "CNE Logo",
         }}
       />
       <div className="main-content" ref={mainContent}>
