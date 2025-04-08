@@ -6,22 +6,13 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/creativetimofficial/argon-dashboard-react.git"
+    "url": "git+https://github.com/suryaraj05/cargo-north-east.git"
   },
-  "keywords": [
-    "react",
-    "reactjs",
-    "argon",
-    "argon-react",
-    "dashboard",
-    "dashboard-react",
-    "argon-dashboard",
-    "argon-dashboard-react"
-  ],
-  "author": "Creative Tim",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/creativetimofficial/argon-dashboard-react/issues"
+    "url": "https://github.com/suryaraj05/cargo-north-east/issues"
   },
   "homepage": "https://demos.creative-tim.com/argon-dashboard-react/",
   "scripts": {
@@ -36,8 +27,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app:recommended"
+      "react-app"
     ]
   },
   "browserslist": {
