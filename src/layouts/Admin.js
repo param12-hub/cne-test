@@ -81,7 +81,7 @@ import { Container } from "reactstrap";
 import AdminNavbar from "components/Navbars/AdminNavbar.js";
 import AdminFooter from "components/Footers/AdminFooter.js";
 import Sidebar from "components/Sidebar/Sidebar.js";
-import adminRoutes from "adminRoute.js"; // Adjust path if needed (e.g., "../routes/adminRoutes.js")
+import adminRoutes from "adminRuote.js"; // Using the correct file name that exists in the project
 
 const Admin = (props) => {
   const mainContent = React.useRef(null);
